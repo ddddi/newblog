@@ -46,9 +46,8 @@ background-size: 100% 100%;background-attachment: fixed;">
         <div style="text-indent:0px;">
             <h1 style="text-align: center;margin: 0;background: transparent;color: white">个人简介</h1>
             <p><img src="http://image.wenzhihuai.com/66.jpg" style="border-radius:50%;width:100px"></p>
-            <p>温志怀</p>
-            <p>哈哈哈哈哈哈哈</p>
-            <p>本网站尚未彻底完成~</p>
+            <p>刘迪</p>
+            <p>本网站是根据温志怀的个人主页更改的~</p>
             <p>采用Spring SpringMVC Mybatis Lucene等框架</p>
             <p>专注高并发、高可用、分布式计算、大数据开发</p>
             <p style="color: #ff14fd">
@@ -61,16 +60,16 @@ background-size: 100% 100%;background-attachment: fixed;">
             </p>
             <h2 style="text-align: center;margin: 0;background: transparent;color: white">与我联系</h2>
             <div class="icon-contact">
-                <div class="col" id="icon">
+                <%--<div class="col" id="icon">
                     <a href="http://www.weibo.com/1925306000/profile"
                        class="social-icon tool-tip sinaweibo"
                        title="" data-placement="top" data-original-title="新浪微博"><i class="fa fa-weibo"></i></a>
-                </div>
-                <div class="col" id="icon">
+                </div>--%>
+                <%--<div class="col" id="icon">
                     <a href="http://t.qq.com/w1570631036?preview"
                        class="social-icon tool-tip tencentweibo" title="" data-placement="top"
                        data-original-title="腾讯微博"><i class="fa fa-tencent-weibo"></i></a>
-                </div>
+                </div>--%>
                 <div class="col" id="icon">
                     <%--<a title="QQ" href="http://wpa.qq.com/msgrd?v=3&uin=1570631036&site=qq&menu=yes"--%>
                     <%--class="social-icon tool-tip qq" data-placement="top"--%>
@@ -84,11 +83,11 @@ background-size: 100% 100%;background-attachment: fixed;">
                        data-placement="top" data-original-title="GitHub"><i class="fa fa-github"></i></a>
                 </div>
 
-                <div class="col" id="icon">
+                <%--<div class="col" id="icon">
                     <a href="https://www.facebook.com/zephery.wen" class="social-icon tool-tip facebook"
                        title=""
                        data-placement="top" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
-                </div>
+                </div>--%>
                 <div class="col colleft" id="icon">
                     <%--弹出层效果链接：http://www.jq22.com/jquery-info109--%>
                     <%--<a href="http://image.wenzhihuai.com/mywechat.png"--%>
