@@ -12,6 +12,7 @@ import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.joda.time.DateTime;
+import org.redisson.Redisson;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.slf4j.Logger;
@@ -59,8 +60,11 @@ public class TimeController {
             .build();
     private BlogIndex blogIndex = new BlogIndex();
     private final static String REGULARIP = Config.getProperty("regulartime.server");
-    @Resource
+
+    // FIXME bean 注入有问题
+//    @Resource
     private RedissonClient redissonClient;
+
 
 //    /**
 //     * 重启本项目
