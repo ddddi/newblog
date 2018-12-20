@@ -1,14 +1,4 @@
-麻烦支付宝扫一扫:
-<div align="center">
-
-![](http://image.wenzhihuai.com/images/201808131112331916088526.png?imageView2/2/w/400)
-
-</div>
-
-
-
-
-
+#从别处fork
 # 个人博客技术选型
 
 [![GitHub stars](https://img.shields.io/github/stars/Zephery/newblog.svg)](https://github.com/Zephery/newblog/stargazers)
