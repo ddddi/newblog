@@ -1,4 +1,4 @@
-#从别处fork
+#从https://github.com/Zephery/newblog  fork
 # 个人博客技术选型
 
 [![GitHub stars](https://img.shields.io/github/stars/Zephery/newblog.svg)](https://github.com/Zephery/newblog/stargazers)
